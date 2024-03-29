@@ -5,7 +5,7 @@
   align-items: center;
   position: sticky;
   background: -webkit-linear-gradient(90deg, #edf6f9 0%, #006d77 100%);
-  padding: var(--ds-margin-xl) 0px;
+  padding: var(--ds-margin-xxl) 0px;
   gap: var(--ds-gap-l);
 }
 
