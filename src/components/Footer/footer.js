@@ -3,18 +3,11 @@ import { data } from "../../../utils/data.js";
 
 // crear Footer
 export const Footer = () => {
-  const footer = document.createElement('div');
+  const footer = document.createElement('footer');
   footer.id = 'footer';
   const h3Footer = document.createElement('h3');
   h3Footer.className = 'h3-footer';
   h3Footer.textContent = data.footer;
-  const linkStart = document.createElement('a');
-  linkStart.className = 'link-start';
-  linkStart.href = '#presentation';
-  linkStart.title = 'Ir al Inicio';
-  const imgStart = document.createElement('img');
-  imgStart.className = 'link-start';
-  imgStart.src = '../../../public/arrows.webp';
   const ulFooter = document.createElement('ul');
   ulFooter.className = 'ul-footer';
 
@@ -33,6 +26,5 @@ export const Footer = () => {
   };
   
   main.appendChild(footer);
-  footer.append(h3Footer, ulFooter, linkStart);
-  linkStart.appendChild(imgStart);
+  footer.append(ulFooter, h3Footer);
 };
