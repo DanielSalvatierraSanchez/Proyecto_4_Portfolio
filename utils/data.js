@@ -3,7 +3,7 @@ export const data = {
   introEn: 'Hello! I´m',
   name: "Daniel Salvatierra",
   email: "dss250583@gmail.com",
-  photo: "../public/daniel_short.png",
+  photo: "./public/daniel_short.png",
   photoFake: "../public/shrek.webp",
   value: "Soy una persona apasionada del mundo IT y en el cual conseguido significativos logros, todo ello gracias a mi CONSTANCIA, PERSEVERANCIA, ENTREGA, PASIÓN... ¡Si quieres tener un gran equipo, sin duda, yo debo de formar parte de él! ¡Contáctame y estaré encantado de demostrártelo!",
   valueEn: "I´m a person passionate about the IT world and in which I´ve achieved significant achievements, all thanks to my PERSEVERANCE, DEDICATION, PASSION... If you want to have a great team, without a doubt, I must be part of it! Contact me and I'll be happy to show you!",
