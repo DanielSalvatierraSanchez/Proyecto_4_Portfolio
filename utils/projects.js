@@ -1,6 +1,6 @@
 export const projects = [
   {
-    image: "../public/proyecto4.webp",
+    image: "./proyecto4.webp",
     title: 'Proyecto 4 Portfolio',
     titleEn: 'Project 4 Portfolio',
     text: "Creación de mi Portfolio mediante VITE, componentizado, escalable, responsivo, con eventos,...", 
@@ -12,7 +12,7 @@ export const projects = [
     target: "_blank",
   },
   {
-    image: "../public/proyecto3.webp",
+    image: "./proyecto3.webp",
     title: 'Proyecto 3 Picturest',
     titleEn: 'Project 3 Picturest',
     text: "Réplica de Pinterest mediante VITE, toque personal, componentizado, haciendo llamadas a una API,...", 
@@ -24,7 +24,7 @@ export const projects = [
     target: "_blank",
   },
   {
-    image: "../public/proyecto2.webp",
+    image: "./proyecto2.webp",
     title: "Proyecto 2 Gamestore",
     titleEn: "Project 2 Gamestore", 
     text: "Creación de una tienda de videojuegos mediante VITE, creando 2 filtros con funcionalidad conjunta,...", 
@@ -36,7 +36,7 @@ export const projects = [
     target: "_blank",
   },
   {
-    image: "../public/proyecto1.webp",
+    image: "./proyecto1.webp",
     title: "Proyecto 1 GameRoom",
     titleEn: "Project 1 GameRoom", 
     text: "Simulación de una tienda de videojuegos, un proyecto básico, buenas prácticas, responsivo,...", 

@@ -26,7 +26,7 @@ export const cardOfProject = () => {
     githubLinkProject.target = projects.target;
     const githubImgProject = document.createElement('img');
     githubImgProject.className = 'github-img-project';
-    githubImgProject.src = '../../../public/github.webp';
+    githubImgProject.src = './github.webp';
     
     const webLinkProject = document.createElement('a');
     webLinkProject.className = 'web-link-project';
@@ -34,7 +34,7 @@ export const cardOfProject = () => {
     webLinkProject.target = projects.target;
     const webImgProject = document.createElement('img');
     webImgProject.className = 'web-img-project';
-    webImgProject.src = '../../../public/web.webp';
+    webImgProject.src = './web.webp';
     
     cardsProjects.appendChild(articleProjects);
     articleProjects.append(imgProject, titleProject, textProject, linksProject);
