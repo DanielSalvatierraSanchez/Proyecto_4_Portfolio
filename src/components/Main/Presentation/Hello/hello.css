@@ -1,0 +1,85 @@
+#hello {
+  margin: 200px 100px 100px 100px;
+  font-family: var(--ds-font-four);
+  width: fit-content;
+}
+
+.h2-presentation {
+  font-size: 45px;
+  cursor: default;
+}
+
+.h1-presentation {
+  font-size: 90px;
+  padding-top: var(--ds-padding-m);
+  cursor: default;
+}
+
+.h3-presentation {
+  font-size: xxx-large;
+  margin-top: var(--ds-margin-s);
+  color: var(--ds-color-secondary);
+  cursor: default;
+}
+
+.ul-presentation {
+  display: flex;
+  margin: 100px;
+  justify-content: flex-start;
+}
+
+.ul-presentation > li {
+  margin-right: var(--ds-margin-xxl);
+}
+
+a > .img-email {
+  width: 50px;
+  height: 50px;
+  transition: all 1s;
+}
+
+a > .img-github {
+  width: 50px;
+  height: 50px;
+  transition: all 1s;
+}
+
+a > .img-linkedin {
+  width: 50px;
+  height: 50px;
+  transition: all 1s;
+}
+
+.img-email:hover, .img-github:hover, .img-linkedin:hover {
+  transform: scale(1.3);
+  transition: all 0.5s;
+}
+
+.link-email, .link-github, .link-linkedin {
+  width: 50px;
+  height: 50px;
+  transition: all 1s;
+}
+
+.p-presentation {
+  margin-top: 50px;
+  max-width: 800px;
+  font-family: var(--ds-font-one);
+  font-size: large;
+  color: var(--ds-color-secondary);
+  cursor: default;
+}
+
+/* MEDIA QUERIES*/
+
+@media (min-width: 1441px) {
+  #hello {
+    margin: 200px 100px 100px 150px;
+  }
+}
+
+@media (min-width: 1941px) {
+  #hello {
+    margin: 250px 100px 100px 300px;
+  }
+}

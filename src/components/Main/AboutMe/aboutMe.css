@@ -1,0 +1,33 @@
+#aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1050px;
+  cursor: default;
+}
+
+#title-aboutme {
+  border: var(--ds-border-xxs) solid var(--ds-color-primary);
+  padding: 20px 70px;
+  font-family: var(--ds-font-one);
+  letter-spacing: 10px;
+}
+
+.text-aboutme {
+  width: 800px;
+  margin: 170px;
+  color: var(--ds-color-primary);
+  font-family: var(--ds-font-one);
+  font-size: large;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+/* MEDIA QUERIES */
+
+@media (width <= 1025px) {
+  #aboutme {
+    height: 1150px;
+  }
+}

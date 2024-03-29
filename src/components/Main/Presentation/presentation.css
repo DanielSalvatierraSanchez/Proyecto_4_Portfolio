@@ -1,0 +1,12 @@
+#presentation {
+  display: flex;
+  height: 1050px;
+}
+
+/* MEDIA QUERIES */
+
+@media (width <= 1025px) {
+  #presentation {
+    height: 1150px;
+  }
+}
