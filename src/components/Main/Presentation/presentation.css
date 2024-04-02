@@ -9,4 +9,12 @@
   #presentation {
     height: 1150px;
   }
+  
+@media (width <= 1165px) {
+  #presentation {
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 1350px;
+  }
+}
 }
