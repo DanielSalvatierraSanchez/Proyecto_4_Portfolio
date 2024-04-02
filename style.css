@@ -83,6 +83,11 @@ section {
   background: linear-gradient(180deg, #edf6f9 0%, #006d77 100%);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* MEDIA QUERIES */
 
 @media (min-width: 1441px) {
