@@ -25,6 +25,7 @@
 
 @media (width <= 1025px) {
   .ul-nav-header {
+    justify-content: center;
     margin-left: 0px;
   }
 }
