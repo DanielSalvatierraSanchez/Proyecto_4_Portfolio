@@ -19,6 +19,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 50px 50px;
+  margin: var(--ds-margin-xl);
   gap: 50px;
 }

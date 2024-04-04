@@ -63,7 +63,7 @@ a > .img-linkedin {
 }
 
 .p-presentation {
-  margin-top: 50px;
+  margin-top: var(--ds-margin-xl);
   max-width: 800px;
   font-family: var(--ds-font-one);
   font-size: large;
@@ -71,16 +71,33 @@ a > .img-linkedin {
   cursor: default;
 }
 
+
 /* MEDIA QUERIES*/
 
-@media (min-width: 1441px) {
+@media (width <= 1941px) {
   #hello {
-    margin: 200px 100px 100px 150px;
+    margin: 250px 100px 100px 200px;
   }
 }
 
-@media (min-width: 1941px) {
+@media (width <= 1465px) {
   #hello {
-    margin: 250px 100px 100px 300px;
+    margin: 250px 100px 100px 100px;
+  }
+  
+  .ul-presentation {
+    justify-content: space-around;
+  }
+}
+
+@media (width <= 1165px) {
+  #hello {
+    margin: 150px 0px 0px 0px;
+  }
+}
+
+@media (width <= 850px) {
+  #hello {
+    margin: 150px 20px 0px 20px;
   }
 }

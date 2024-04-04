@@ -16,7 +16,7 @@
 
 .title-training {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: var(--ds-margin-xl);
 }
 
 .title-work-experience {
