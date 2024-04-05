@@ -71,7 +71,7 @@ body {
   height: 100%;
   color: var(--ds-color-primary);
   /* background: linear-gradient(180deg, #edf6f9 0%, #006d77 100%); */
-  width: fit-content;
+  /* width: fit-content; */
 }
 
 main {
