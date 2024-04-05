@@ -48,7 +48,7 @@ export const MenuBurguer = () => {
   navMenu.append(buttonClose, ulMenu);
   ulMenu.append(liMenu);
 
-  buttonOpen.addEventListener("click", () => {
+  buttonOpen.addEventListener("mouseover", () => {
     navMenu.classList.add('visible');
   });
   buttonClose.addEventListener("click", () => {
