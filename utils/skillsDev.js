@@ -4,10 +4,10 @@ export const skillsUsed = [
   { title: 'JavaScript', img: './js.webp' },
   { title: 'Vite', img: './vite.webp' },
   { title: 'VS Code', img: './vscode.webp' },
-  { title: 'Responsive', img: './responsive2.webp' },
-  { title: 'Netlify', img: './netlify.webp' },
-  { title: 'Vercel', img: './vercel.webp' },
   { title: 'Github', img: './github.webp' },
+  { title: 'Vercel', img: './vercel.webp' },
+  { title: 'Netlify', img: './netlify.webp' },
+  { title: 'Responsive', img: './responsive2.webp' },
 ];
 
 export const skillsLearning = [

@@ -26,3 +26,28 @@
   gap: var(--ds-gap-xs);
   margin-bottom: 75px;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (width <= 760px) {
+  .div-other-skills {
+    gap: 75px;
+    margin: 0 20px;
+    max-width: 700px;
+  }
+}
+
+@media (width <= 600px) {
+  .div-other-skills {
+    gap: 50px;
+    max-width: 400px;
+  }
+}
+
+@media (width <= 470px) {
+  .div-other-skills {
+    gap: 50px;
+    max-width: 250px;
+  }
+}

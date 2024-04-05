@@ -22,3 +22,19 @@
   gap: var(--ds-gap-xs);
   width: 200px;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (width <= 975px) {
+  .container-training {
+    gap: 50px;
+    max-width: 600px;
+  }
+}
+
+@media (width <= 650px) {
+  .container-training {
+    max-width: 300px;
+  }
+}

@@ -23,3 +23,12 @@
   display: flex;
   margin: 75px 0px 50px 0px;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (width <= 470px) {
+  .title-experience {
+    padding: 15px 15px;
+  }
+}

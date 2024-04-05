@@ -11,7 +11,7 @@
 
 .h1-presentation {
   font-size: 90px;
-  padding-top: var(--ds-padding-m);
+  margin-top: var(--ds-margin-m);
   cursor: default;
 }
 
@@ -24,7 +24,6 @@
 
 .ul-presentation {
   display: flex;
-  /* margin: 100px; */
   margin: 50px 100px;
   justify-content: flex-start;
 }
@@ -84,7 +83,7 @@ a > .img-linkedin {
   #hello {
     margin: 250px 100px 100px 100px;
   }
-  
+
   .ul-presentation {
     justify-content: space-around;
   }
@@ -100,4 +99,13 @@ a > .img-linkedin {
   #hello {
     margin: 150px 20px 0px 20px;
   }
+}
+
+@media (width <= 600px) {
+  .ul-presentation {
+    margin: var(--ds-margin-m);
+  }
+
+  /* .ul-presentation > li {
+  } */
 }

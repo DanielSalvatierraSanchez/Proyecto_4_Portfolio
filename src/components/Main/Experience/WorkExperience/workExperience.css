@@ -39,6 +39,7 @@
   font-family: var(--ds-font-two);
   gap: var(--ds-gap-xs);
 }
+
 .container-customers {
   display: flex;
   justify-content: center;
@@ -52,4 +53,19 @@
   object-fit: contain;
   width: 100px;
   height: 60px;
+}
+
+
+/* MEDIA QUERIES */
+@media (width <= 975px) {
+  #work-experience {
+    gap: 50px;
+    max-width: 600px;
+  }
+}
+
+@media (width <= 650px) {
+  #work-experience {
+    max-width: 300px;
+  }
 }

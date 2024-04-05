@@ -22,3 +22,17 @@
   margin: var(--ds-margin-xl);
   gap: 50px;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (width <= 470px) {
+  #cards-projects {
+    margin: 0 20px;
+    gap: 50px;
+  }
+
+  .title-projects {
+    padding: 15px 15px;
+  }
+}

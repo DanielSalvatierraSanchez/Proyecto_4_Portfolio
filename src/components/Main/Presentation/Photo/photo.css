@@ -41,3 +41,10 @@
     margin: 0px;
   }
 }
+
+@media (width <= 600px) {
+  .photo-personal {
+    width: 250px;
+    height: 350px;
+  }
+}
