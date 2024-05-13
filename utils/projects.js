@@ -1,5 +1,17 @@
 export const projects = [
   {
+    image: "./proyecto5.webp",
+    title: 'Proyecto 5 Games Hub',
+    titleEn: 'Project 5 Games Hub',
+    text: "Creación de 3 juegos mediante VITE, componentizado, responsivo y haciendo únicamente uso de JavaScript para su creación y funcionalidad.", 
+    textEn: "Creation of 3 games using VITE, componentized, responsive and I only used Javascript to the creation and functionality.",
+    date: 'Mayo 2024',
+    dateEn: 'May 2024',
+    link: "https://github.com/DanielSalvatierraSanchez/Proyecto_5_Games_Hub_4All.git",
+    url: "https://proyecto-5-games-hub-4-all.vercel.app/",
+    target: "_blank",
+  },
+  {
     image: "./proyecto4.webp",
     title: 'Proyecto 4 Portfolio',
     titleEn: 'Project 4 Portfolio',
